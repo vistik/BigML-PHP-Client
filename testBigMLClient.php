@@ -1,7 +1,7 @@
 <?php
 include ("BigMLClient.php");
 
-$client = new BigMLClient('vistik','6f49539e248cc22fb626bbb095065ef56e6d9913');
+$client = new BigMLClient('<insert username>','<insert apikey>');
 
 $file = "data/iris.csv";
 $result = $client->create_source($file);
